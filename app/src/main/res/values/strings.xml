@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AstuteTest</string>
+    <string name="suggested_photos">Suggested Photos</string>
 </resources>

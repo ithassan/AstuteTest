@@ -9,4 +9,12 @@ class ImageRepository @Inject constructor(private val api: MyApi) : BaseReposito
     suspend fun getAllImages()=apiRequest {
         api.getAllImages()
     }
+
+    suspend fun getImageById(id:String)=apiRequest {
+        api.getImageById(id)
+    }
+
+    suspend fun getSuggestedImages(id:String)=apiRequest {
+        api.getSuggestedImages(id)
+    }
 }

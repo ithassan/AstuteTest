@@ -4,8 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/flutterproject/AstuteTest/app/src/main/res/layout/activity_main.xml" value="0.25181159420289856" />
+        <entry key="..\:/flutterproject/AstuteTest/app/src/main/res/layout/allimages_activity.xml" value="0.25181159420289856" />
         <entry key="..\:/flutterproject/AstuteTest/app/src/main/res/layout/allimages_fragment.xml" value="0.25181159420289856" />
+        <entry key="..\:/flutterproject/AstuteTest/app/src/main/res/layout/image_detail_activity.xml" value="0.25181159420289856" />
+        <entry key="..\:/flutterproject/AstuteTest/app/src/main/res/layout/image_detail_fragment.xml" value="0.25181159420289856" />
         <entry key="..\:/flutterproject/AstuteTest/app/src/main/res/layout/image_list.xml" value="0.25181159420289856" />
+        <entry key="..\:/flutterproject/AstuteTest/app/src/main/res/layout/suggested_image_list.xml" value="0.25181159420289856" />
+        <entry key="..\:/flutterproject/AstuteTest/app/src/main/res/menu/main_menu.xml" value="0.27291666666666664" />
       </map>
     </option>
   </component>

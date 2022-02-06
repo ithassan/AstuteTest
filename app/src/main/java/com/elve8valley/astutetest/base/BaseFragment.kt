@@ -20,12 +20,25 @@ abstract class   BaseFragment<VB: ViewBinding>(
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
+        setHasOptionsMenu(true)
         _binding=bindingInflater.invoke(inflater)
 
         if(_binding==null)
             throw IllegalStateException("Binding cannot be null")
 
         return this._binding!!.root
+    }
+
+    private var persistingView: View? = null
+
+    private fun persistingView(view: View): View {
+        val root = persistingView
+        if (root == null) {
+            persistingView = view
+            return view
+        } else {
+            (root.parent as? ViewGroup)?.removeView(root)
+            return root
+        }
     }
 }
